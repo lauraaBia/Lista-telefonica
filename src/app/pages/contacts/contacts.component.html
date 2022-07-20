@@ -1,0 +1,9 @@
+<div class="contacts">
+  <div class="contacts-add">
+    <button class="btn-add" [routerLink]="['./contacts-create']">Adicionar</button>
+  </div>
+  <app-contact
+    (contactsEvent)="loadContacts()"
+    *ngFor="let contact of contacts"
+    [contact]="contact"></app-contact>
+</div>

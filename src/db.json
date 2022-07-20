@@ -1,0 +1,14 @@
+{
+  "phonebook": [
+    {
+      "name": "José",
+      "phone": "19 99999-9999",
+      "status": "disponível"
+    },
+    {
+      "name": "João",
+      "phone": "11 98999-9999",
+      "status": "bloqueado"
+    }
+  ]
+}

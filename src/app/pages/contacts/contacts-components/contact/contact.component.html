@@ -1,0 +1,11 @@
+<div class="phone-item">
+  <div class="list-items">
+    <p>Name: {{contact.name}}</p>
+    <p>Phone: {{contact.phone}}</p>
+  </div>
+  <div class="btns-edits">
+    <button class="btn-edit" [routerLink]="['./contacts-edit', contact.id]">Edit</button>
+    <button class="btn-edit" (click)="deleteContact(contact.id)">Delete</button>
+  </div>
+</div>
+<div class="linha"></div>

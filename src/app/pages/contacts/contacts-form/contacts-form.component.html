@@ -1,0 +1,9 @@
+<div class="create-contacts">
+  <form #form="ngForm" class="create-contacts-form">
+    <p class="obs-form">*Preencha todos os campos</p>
+    <input required name="name" placeholder="Name" [(ngModel)]="contact.name"  type="text" />
+    <input required name="phone" maxlength="12" minlength="12" placeholder="Phone" [(ngModel)]="contact.phone"  />
+    <input required name="status" placeholder="Status" [(ngModel)]="contact.status" type="text" />
+    <button class="btn-save" [disabled]="form.invalid" (click)="onSubmit()">salvar</button>
+  </form>
+</div>

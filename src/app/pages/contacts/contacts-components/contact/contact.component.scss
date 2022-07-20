@@ -1,0 +1,40 @@
+.phone-item {
+  margin-top: 20px;
+  display: flex;
+}
+
+.btn-edit{
+  margin: 2px;
+  border-radius: 4px;
+  padding: 5px;
+  height: 30px;
+  cursor: pointer;
+  color: #6f666d;
+  background-color: #130e1a;
+  border: none;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.btns-edits{
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.list-items{
+  color: white;
+}
+
+p{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.linha:after{
+  background-color: #130e1a;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 100%;
+}

@@ -1,0 +1,16 @@
+{
+  "phonebook": [
+    {
+      "name": "Laura",
+      "phone": "19 993900277",
+      "status": "Disponivel",
+      "id": "87f0a825-35a4-493b-b15b-af70f086e0ad"
+    },
+    {
+      "phone": "19 999999999",
+      "name": "teste",
+      "status": "disponivel",
+      "id": "0bf503f1-a79e-4e34-9817-91e5d677ff95"
+    }
+  ]
+}
